@@ -1,0 +1,42 @@
+.boards {
+	.board {
+		background-color: #fff;
+		padding: 20px;
+		border-radius: 6px;
+		.board-name {
+			margin-bottom: 20px;
+		}
+		.task {
+			font-size: 13px;
+			border: 1px solid #a9a9a9;
+			padding: 10px;
+			p {
+				margin-bottom: 15px;
+			}
+			.collaborators {
+				ul {
+					padding: 0;
+					li {
+						display: inline-block;
+						margin-left: -5px;
+						a {
+							width: 18px;
+						    height: 18px;
+						    background-color: #f9f8fc;
+						    background-size: cover;
+						    display: inline-block;
+						    vertical-align: top;
+						    border-radius: 50%;
+						    text-align: center;
+						    color: #a9a9a9;
+
+						}
+						&:first-child {
+					    	margin-right: 10px;
+					    }
+					}
+				}
+			}
+		}
+	}
+}
