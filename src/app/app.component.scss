@@ -8,8 +8,10 @@
 		}
 		.task {
 			font-size: 13px;
-			border: 1px solid #a9a9a9;
+			border: 1px solid #e8e8e8;
 			padding: 10px;
+			border-radius: 5px;
+			margin-bottom: 15px;
 			p {
 				margin-bottom: 15px;
 			}
@@ -38,5 +40,8 @@
 				}
 			}
 		}
+	}
+	.btn {
+		margin-top: 20px;
 	}
 }

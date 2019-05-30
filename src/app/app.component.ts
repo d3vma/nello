@@ -10,7 +10,8 @@ export class AppComponent implements OnInit {
 
   public colors = {
   	red: 'red',
-  	green: 'green'
+    orange: 'orange',
+  	blue: 'blue',
   }
 
   ngOnInit() {
